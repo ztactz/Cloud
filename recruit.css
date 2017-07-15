@@ -1,0 +1,66 @@
+.section{
+  width:696px;
+  float:left;
+}
+.title{
+   font-family:"メイリオ";
+   font-size:14px;
+   font-style:normal;
+ }
+.title h1{
+   padding-top:30px;
+   padding-bottom:10px;
+   border-bottom:3px solid #ADD8E6;
+   max-width:696px;
+ }
+.subtitle p{
+   font-family: "Helvetica Neue";
+   font-size:28px;
+   font-weight:bold;
+   color:#2E9AFE;
+   margin:0px;
+}
+.ue{
+  margin-top:20px;
+}
+.contents{
+  max-width: 696px;
+}
+.contents p{
+  font-size:14px;
+}
+.text_right{
+  text-align:right;
+}
+/* 696pxは左側のコンテンツで使用 */
+/* 残りの264pxが右側のコラム欄 */
+.column{
+  margin-left:696px;
+  max-width: 264px;
+  max-height: none;
+}
+.column h1{
+  color:#2E64FE;
+  font-size:18px;
+  padding-top:75px;
+  margin-left:50px;
+  border-bottom:1px solid #BDBDBD;
+  font-weight:bold;
+}
+
+.column p{
+  color:#2E64FE;
+  font-size:14px;
+  margin-left:50px;
+  border-bottom:1px solid #BDBDBD;
+  font-weight:bold;
+  padding:3px 0px;
+}
+
+img{
+  max-width: 100%;
+}
+
+.pr{
+  margin-left: 50px;
+}
